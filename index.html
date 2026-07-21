@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NeurIPS 2026 Workshop on Child Safety in AI">
+  <title>Child Safety in AI — NeurIPS 2026 Workshop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top">Workshop on Child Safety in AI</a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#topics">Topics</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#cfp">Call for Papers</a>
+        <a href="#organizers">Organizers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">NeurIPS 2026 Workshop on</p>
+      <h1>Child Safety<br><span>in AI</span></h1>
+      <p class="hero-meta">December 12 or 13 (TBA), 2026 · Atlanta, GA, USA</p>
+      <p class="lede">A workshop bringing together researchers, practitioners, and policymakers to address the technical and sociotechnical challenges of protecting children in AI ecosystems.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#cfp">View call for papers</a>
+      </div>
+    </section>
+
+    <section id="about" class="section wrap">
+      <h2>About</h2>
+      <div class="prose two-col">
+        <div>
+        <p>Modern AI systems introduce new risks to children, including developmental harms such as increased reliance on AI and unhealthy social or emotional attachment; interactions that may contribute to self-harm or suicidal ideation; and the creation or misuse of synthetic content for harassment, grooming, extortion, and sexual abuse.</p></div><div>
+        <p>At the same time, child safety places unusual constraints on conventional AI safety research. Harmful data may be illegal or unethical to access, real-world evaluations are limited, and effective interventions must consider broad ecosystem effects and often require cross-sector collaboration with groups such as NGOs, hotlines, law enforcement, regulators, and child-protection experts.</p></div>
+      </div>
+      <p class="highlight">The workshop considers child safety as a core dimension of AI safety, and as a critical test case for the development, deployment, maintenance, and governance of safe AI systems.</p>
+    </section>
+
+   <!-- <section id="topics" class="section wrap">
+      <h2>Workshop Topics</h2>
+      <div class="topic-grid">
+        <article><h3>Safe data, evaluation & benchmarking</h3><p>Restricted-access evaluation, proxy tasks, synthetic benchmarks, privacy-preserving auditing and data curation, and scalable safety assessment.</p></article>
+        <article><h3>Robust & safe model design</h3><p>Jailbreak resistance, harmful fine-tuning defenses, concept erasure, multimodal safety, and safeguards for agentic systems.</p></article>
+        <article><h3>Deployment & ecosystem safeguards</h3><p>Input/output filtering, monitoring, provenance, watermarking, reporting, cross-platform coordination, and long-term maintenance.</p></article>
+        <article><h3>Human-centered design & policy</h3><p>Age-appropriate interfaces, youth mental health, governance, global perspectives, moderator well-being, and stakeholder collaboration.</p></article>
+      </div>
+    </section>-->
+       <section id="topics" class="section wrap">
+      <h2>Research directions</h2>
+      <div class="topic-grid">
+        <article class="topic-card">
+          <div class="topic-heading">
+            <h3>Safe Data, Evaluation, and Benchmarking</h3>
+          </div>
+          <ul>
+            <li>Safe data curation and governance for child-related data</li>
+            <li>Evaluation methodologies under restricted access settings (e.g., proxy tasks, synthetic benchmarks)</li>
+            <li>Measurement and benchmarking of child safety risks (datasets, metrics, evaluation protocols)</li>
+            <li>Automated auditing and interpretability methods for detecting unsafe capabilities</li>
+            <li>Data-free or privacy-preserving auditing techniques</li>
+          </ul>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-heading">
+            <h3>Robust and Safe Model Design</h3>
+          </div>
+          <ul>
+            <li>Preventing the emergence of harmful capabilities (e.g., defenses against jailbreaking, resilience to harmful fine-tuning, preventing concept fusion, data cleaning)</li>
+            <li>Evaluating capability degradation when implementing safety solutions</li>
+            <li>Adversarial robustness and red teaming for child safety</li>
+            <li>Machine unlearning and concept erasure with strong guarantees</li>
+            <li>Safety in multimodal and agentic AI systems</li>
+          </ul>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-heading">
+            <h3>Deployment, Monitoring, and Ecosystem Safeguards</h3>
+          </div>
+          <ul>
+            <li>Robust safeguards for model deployment (e.g., input/output filtering, monitoring)</li>
+            <li>Content provenance, watermarking, and traceability</li>
+            <li>Personalization–privacy trade-offs in AI systems</li>
+            <li>Protection of user-generated content from manipulation</li>
+            <li>Cross-platform and ecosystem-level safety coordination</li>
+            <li>Human factors and moderator well-being</li>
+          </ul>
+        </article>
+
+        <article class="topic-card">
+          <div class="topic-heading">
+            <h3>Human-Centered Design, Policy, and Societal Implications</h3>
+          </div>
+          <ul>
+            <li>Child-centered safety design and age-appropriate interfaces</li>
+            <li>Policy, governance, and regulatory frameworks</li>
+            <li>Collaboration with external stakeholders (NGOs, law enforcement, hotlines)</li>
+            <li>Ethical, legal, and societal implications (including global perspectives)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="speakers" class="section wrap">
+      <h2>Invited speakers</h2>
+      <div class="people-grid">
+        <article class="person"><h3>Ana-Maria Cretu</h3><p class="affiliation">CISPA</p></article><!--<p>Evaluating and preventing harmful content generation in diffusion models.</p>-->
+        <article class="person"><h3>Sauvik Das</h3><p class="affiliation">Carnegie Mellon University</p></article><!--<p>Human-centered approaches to mental health and safety in child–AI interactions.</p></article>-->
+        <article class="person"><h3>Julie Inman Grant</h3><p class="affiliation">Australia’s eSafety Commissioner</p><!--<p>Building effective safety frameworks for children in the age of generative AI.</p>--></article>
+        <article class="person"><h3>Riana Pfefferkorn</h3><p class="affiliation">Stanford University</p><!--<p>Bridging technical AI safety and child-protection policy.</p>--></article>
+        <article class="person"><h3>Robbie Torney</h3><p class="affiliation">Common Sense Media</p><!--<p>Understanding how children engage with generative AI systems.</p>--></article>
+        <article class="person"><h3>Miranda Wei</h3><p class="affiliation">EPFL</p><!--<p>Combating AI-facilitated child sexual abuse.</p>--></article>
+      </div>
+    </section>
+
+    <section id="schedule" class="section wrap">
+      <h2>Schedule</h2>
+      <p class="section-note">Preliminary program. All times are in ET (local to the venue).</p>
+      <div class="schedule" role="table" aria-label="Workshop schedule">
+        <div class="schedule-row schedule-head" role="row"><div>Time</div><div>Type</div><div>Activity</div></div>
+        <div class="schedule-row"><div>9:00–9:15</div><div><span class="tag opening">Opening</span></div><div>Opening remarks</div></div>
+        <div class="schedule-row"><div>9:15–9:45</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #1</div></div>
+        <div class="schedule-row"><div>9:45–10:15</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #2</div></div>
+        <div class="schedule-row"><div>10:15–10:30</div><div><span class="tag break">Break</span></div><div>Coffee break</div></div>
+        <div class="schedule-row"><div>10:30–11:15</div><div><span class="tag contributed">Contributed talks</span></div><div>Data & evaluation</div></div>
+        <div class="schedule-row"><div>11:15–11:45</div><div><span class="tag discussion">Discussion</span></div><div>Small-group discussion: open problems</div></div>
+        <div class="schedule-row"><div>11:45–13:00</div><div><span class="tag lunch">Lunch</span></div><div>Lunch break</div></div>
+        <div class="schedule-row"><div>13:00–13:30</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #3</div></div>
+        <div class="schedule-row"><div>13:30–14:00</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #4</div></div>
+        <div class="schedule-row"><div>14:00–14:45</div><div><span class="tag contributed">Contributed talks</span></div><div>Safeguards</div></div>
+        <div class="schedule-row"><div>14:45–15:00</div><div><span class="tag break">Break</span></div><div>Coffee break</div></div>
+        <div class="schedule-row"><div>15:00–15:45</div><div><span class="tag panel">Panel</span></div><div>Panel discussion</div></div>
+        <div class="schedule-row"><div>15:45–16:15</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #5</div></div>
+        <div class="schedule-row"><div>16:15–16:45</div><div><span class="tag invited">Invited talk</span></div><div>Invited Talk #6</div></div>
+        <div class="schedule-row"><div>16:45–17:30</div><div><span class="tag poster">Poster</span></div><div>Poster session & networking</div></div>
+      </div>
+    </section>
+
+    <section id="cfp" class="section wrap">
+      <h2>Call for papers</h2>
+      <div class="prose">
+        <p>We invite full papers, works-in-progress, position papers, and open-problem submissions of up to four pages, excluding references, using the NeurIPS 2026 template. Submissions must be anonymous and may include an optional unlimited-length appendix.</p>
+        <p>Accepted papers will be non-archival and may be submitted to other venues. Submissions will receive double-blind review, and evaluation will prioritize the potential to stimulate productive workshop discussion alongside technical soundness.</p>
+      </div>
+      <dl class="dates">
+        <div><dt>Submission deadline</dt><dd>August 29, 2026, AoE</dd></div>
+        <div><dt>Notification</dt><dd>September 29, 2026, AoE</dd></div>
+        <div><dt>Submission site</dt><dd>OpenReview link forthcoming</dd></div>
+      </dl>
+    </section>
+
+    <section id="organizers" class="section wrap">
+      <h2>Organizers</h2>
+        <div class="organizer-list">
+          <div><strong><a href="https://rebeccasportnoff.com/" target="_blank">Rebecca Portnoff</a></strong></div>
+          <div><strong><a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a></strong></div>
+          <div><strong><a href="https://www.linkedin.com/in/agstrait/" target="_blank">Andrew Strait</a></strong></div>
+          <div><strong><a href="https://www.ashiawilson.com/" target="_blank">Ashia Wilson</a></strong></div>
+          <div><strong><a href="https://www.linkedin.com/in/campbellcwilson/" target="_blank">Campbell Wilson</a></strong></div>
+          <div><strong><a href="https://aashiqmuhamed.github.io/" target="_blank">Aashiq Muhamed</a></strong></div>
+          <div><strong><a href="https://neilkale.github.io/" target="_blank">Neil Kale</a></strong></div>
+        </div>
+        <!--<div><strong><a href="https://www.cs.cmu.edu/~smithv/" target="_blank">Virginia Smith</a></strong><span>Carnegie Mellon University</span></div>-->
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner"><span>NeurIPS 2026 Workshop on Child Safety in AI</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
